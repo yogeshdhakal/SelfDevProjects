@@ -5,8 +5,8 @@ font-size: 16px;
 color: #333333
 }
 html{
-  overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .logo{
@@ -177,6 +177,7 @@ h3{
   transform: translateX(5px);
   transition: all 0.2s ease 0s;
 }
+
 .flex-contain{
 display: flex;
 flex-wrap: wrap;
@@ -235,6 +236,56 @@ margin-bottom: 40px
 
 hr{
   height: 1px;
-  background-color: #E0E0E0;
+  background-color: rgba(0,0,0,0.05);
   border: 0;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  padding: 0 120px 0 120px;
+  margin-top: 60px;
+  margin-bottom: 60px
+}
+
+.footer-items{
+}
+/*
+.footer p {
+  font-size: 14px;
+}
+
+.footer li{
+    font-size: 14px;
+}
+*/
+.footer ul{
+  list-style-type: none;
+}
+.footer a{
+  text-decoration: none;
+}
+.footer span{
+  margin-bottom: 10px;
+}
+.footer li{
+  margin-bottom: 4px;
+}
+.sfot{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sfot p{
+  margin-right: auto;
+  margin-left: 120px;
+}
+.sfot img{
+  margin-left: 10px;
+}
+.break{
+  margin-bottom: 10px;
 }
